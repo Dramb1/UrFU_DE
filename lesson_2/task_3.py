@@ -9,7 +9,7 @@ WS_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 
 
 if __name__ == "__main__":
-    path_to_file = os.path.join(WS_DIR, "task_2/3/products_1.json")
+    path_to_file = os.path.join(WS_DIR, "UrFU_DE/lesson_2/data/3/products_1.json")
     with open(path_to_file, "r") as file:
         data = json.load(file)
 
@@ -17,10 +17,11 @@ if __name__ == "__main__":
     for sample in data:
         if sample["name"] not in product.keys():
             product[sample["name"]] = {
-                "avg": sample["price"], "min": sample["price"], "max": sample["price"]
+                "count": 1, "avg": sample["price"], "min": sample["price"], "max": sample["price"]
             }
         else:
-            product[sample["name"]]["avg"] = (product[sample["name"]]["avg"] + sample["price"]) / 2
+            product[sample["name"]]["avg"] += sample["price"]
+            product[sample["name"]]["count"] += 1
             product[sample["name"]]["max"] = max(sample["price"], product[sample["name"]]["max"])
             product[sample["name"]]["min"] = min(sample["price"], product[sample["name"]]["min"])
 
@@ -31,7 +32,10 @@ if __name__ == "__main__":
         WS_DIR, "UrFU_DE/lesson_2/results/r_task_3_var_1.msgpack"
     )
 
-    print(product)
+    for key in product:
+        product[key]["avg"] = product[key]["avg"] / product[key]["count"]   
+        product[key].pop("count")
+
     with open(path_save, "w") as file:
         json.dump(product, file)
     

@@ -17,7 +17,7 @@ def count_frequency(dct, count):
     return dct_freq
 
 if __name__ == "__main__":
-    path_to_file = os.path.join(WS_DIR, "UrFU_DE/lesson_2/task_5.csv")
+    path_to_file = os.path.join(WS_DIR, "UrFU_DE/lesson_2/data/task_5.csv")
     path_to_file_save = os.path.join(WS_DIR, "UrFU_DE/lesson_2/results/r_task_5_var_1.csv")
     
     data = {}
@@ -41,7 +41,7 @@ if __name__ == "__main__":
             if row[0] not in data.keys():
                 data[row[0]] = {
                     "Count": 1,
-                    "Data_value": {"min": float(row[1]), "max": float(row[1]), "avg": float(row[1]), "sum": float(row[1]), "list_value": [float(row[1])]},
+                    "Data_value": {"min": float(row[1]), "max": float(row[1]), "sum": float(row[1]), "list_value": [float(row[1])]},
                     "STATUS": {row[2]: 1},
                     "UNITS": {row[3]: 1},
                     "MAGNTUDE": {row[4]: 1},
@@ -53,7 +53,6 @@ if __name__ == "__main__":
                 data[row[0]]["Count"] += 1
                 data[row[0]]["Data_value"]["min"] = min(data[row[0]]["Data_value"]["min"], float(row[1]))
                 data[row[0]]["Data_value"]["max"] = max(data[row[0]]["Data_value"]["max"], float(row[1]))
-                data[row[0]]["Data_value"]["avg"] = (data[row[0]]["Data_value"]["avg"] + float(row[1])) / 2
                 data[row[0]]["Data_value"]["sum"] += float(row[1])
                 data[row[0]]["Data_value"]["list_value"].append(float(row[1]))
                 for i in range(2, 8):
@@ -67,12 +66,14 @@ if __name__ == "__main__":
         sample = data[key]
         std = np.std(sample["Data_value"]["list_value"])
         sample["Data_value"]["std"] = std
+        sample["Data_value"]["avg"] = sample["Data_value"]["sum"] / sample["Count"]
         sample["Data_value"].pop("list_value")
         
         list_key = list(sample.keys())
         for key_sample in list_key[2:]:
             sample[key_sample] = count_frequency(sample[key_sample], sample["Count"])
 
+    print(data)
     fout.close()
 
     path_save_pkl = os.path.join(

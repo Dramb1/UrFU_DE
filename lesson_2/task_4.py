@@ -9,8 +9,8 @@ WS_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 
 
 if __name__ == "__main__":
-    path_to_file = os.path.join(WS_DIR, "task_2/4/price_info_0.json")
-    path_to_pkl = os.path.join(WS_DIR, "task_2/4/products_0.pkl")
+    path_to_file = os.path.join(WS_DIR, "UrFU_DE/lesson_2/data/4/price_info_0.json")
+    path_to_pkl = os.path.join(WS_DIR, "UrFU_DE/lesson_2/data/4/products_0.pkl")
     with open(path_to_file, "r") as file:
         price_info = json.load(file)
 

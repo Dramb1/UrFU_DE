@@ -5,9 +5,8 @@ import json
 
 WS_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-
 if __name__ == '__main__':
-    path_to_file = os.path.join(WS_DIR, "task_2/1/matrix_1.npy")
+    path_to_file = os.path.join(WS_DIR, "UrFU_DE/lesson_2/data/1/matrix_1.npy")
     array = np.load(path_to_file)
 
     res = {
@@ -26,7 +25,7 @@ if __name__ == '__main__':
             res["sum"] += array[i, j]
             if i == j:
                 res["sumMD"] += array[i, j]
-            elif i + j == array.shape[0]:
+            if i + j == array.shape[0] - 1:
                 res["sumSD"] += array[i, j]
             res["max"] = max(res["max"], float(array[i, j]))
             res["min"] = min(res["min"], float(array[i, j]))
@@ -38,5 +37,5 @@ if __name__ == '__main__':
     with open(os.path.join(WS_DIR, "UrFU_DE/lesson_2/results/r_task_1_var_1.json"), "w") as file:
         json.dump(res, file)
 
-    array = np.array(array / res["max"])
+    array = np.array(array / res["sum"])
     np.save(os.path.join(WS_DIR, "UrFU_DE/lesson_2/results/r_task_1_var_1.npy"), array)
