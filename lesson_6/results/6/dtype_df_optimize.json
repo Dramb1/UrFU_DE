@@ -1,0 +1,1 @@
+{"rideable_type": "category", "started_at": "object", "ended_at": "object", "start_station_name": "category", "start_station_id": "category", "end_station_name": "category", "end_station_id": "category", "start_lat": "float32", "start_lng": "float32", "end_lat": "float32", "end_lng": "float32", "member_casual": "category"}

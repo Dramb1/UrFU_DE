@@ -1,0 +1,12 @@
+{
+    "stockNum": "category",
+    "brandName": "category",
+    "modelName": "category",
+    "askPrice": "uint32",
+    "isNew": "bool",
+    "color": "category",
+    "vf_Wheels": "uint8",
+    "vf_WheelSizeFront": "uint8",
+    "vf_Windows": "uint8",
+    "vf_WheelSizeRear": "uint8"
+}

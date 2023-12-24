@@ -1,0 +1,786 @@
+{
+    "file_size": 845280,
+    "file_in_memory_size": 29778677.0,
+    "columns_stats": {
+        "vin": {
+            "total_memory": 672946.0,
+            "dtype": "object",
+            "memory_space_percentage": 2.26
+        },
+        "vf_VIN": {
+            "total_memory": 672946.0,
+            "dtype": "object",
+            "memory_space_percentage": 2.26
+        },
+        "vf_AirBagLocFront": {
+            "total_memory": 457023.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.53
+        },
+        "vf_Manufacturer": {
+            "total_memory": 454547.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.53
+        },
+        "vf_BodyClass": {
+            "total_memory": 453483.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.52
+        },
+        "vf_VehicleType": {
+            "total_memory": 448765.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.51
+        },
+        "vf_GVWR": {
+            "total_memory": 430138.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.44
+        },
+        "vf_AirBagLocSide": {
+            "total_memory": 410573.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.38
+        },
+        "vf_TrailerBodyType": {
+            "total_memory": 394819.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.33
+        },
+        "vf_TrailerType": {
+            "total_memory": 394818.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.33
+        },
+        "vf_CustomMotorcycleType": {
+            "total_memory": 394722.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.33
+        },
+        "vf_MotorcycleSuspensionType": {
+            "total_memory": 394720.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.33
+        },
+        "vf_MotorcycleChassisType": {
+            "total_memory": 394719.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.33
+        },
+        "vf_BusFloorConfigType": {
+            "total_memory": 393757.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.32
+        },
+        "vf_BusType": {
+            "total_memory": 393757.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.32
+        },
+        "vf_PlantCountry": {
+            "total_memory": 384365.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.29
+        },
+        "firstSeen": {
+            "total_memory": 372623.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.25
+        },
+        "lastSeen": {
+            "total_memory": 372623.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.25
+        },
+        "vf_FuelTypePrimary": {
+            "total_memory": 357934.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.2
+        },
+        "vf_DriveType": {
+            "total_memory": 354791.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.19
+        },
+        "modelName": {
+            "total_memory": 352969.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.19
+        },
+        "vf_Model": {
+            "total_memory": 352969.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.19
+        },
+        "brandName": {
+            "total_memory": 350838.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.18
+        },
+        "vf_Make": {
+            "total_memory": 350838.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.18
+        },
+        "vf_PlantCity": {
+            "total_memory": 347210.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.17
+        },
+        "vf_PlantCompanyName": {
+            "total_memory": 345385.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.16
+        },
+        "vf_SeatBeltsAll": {
+            "total_memory": 339540.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.14
+        },
+        "vf_OtherRestraintSystemInfo": {
+            "total_memory": 330193.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.11
+        },
+        "vf_Series": {
+            "total_memory": 326958.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.1
+        },
+        "vf_ActiveSafetySysNote": {
+            "total_memory": 325393.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.09
+        },
+        "vf_EngineModel": {
+            "total_memory": 322616.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.08
+        },
+        "vf_TPMS": {
+            "total_memory": 320821.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.08
+        },
+        "color": {
+            "total_memory": 316932.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.06
+        },
+        "vf_PlantState": {
+            "total_memory": 310796.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.04
+        },
+        "vf_AirBagLocCurtain": {
+            "total_memory": 300310.0,
+            "dtype": "object",
+            "memory_space_percentage": 1.01
+        },
+        "vf_SteeringLocation": {
+            "total_memory": 293217.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.98
+        },
+        "stockNum": {
+            "total_memory": 292466.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.98
+        },
+        "vf_BodyCabType": {
+            "total_memory": 289978.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.97
+        },
+        "vf_EngineConfiguration": {
+            "total_memory": 289176.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.97
+        },
+        "vf_OtherEngineInfo": {
+            "total_memory": 285112.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.96
+        },
+        "vf_ValveTrainDesign": {
+            "total_memory": 283316.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.95
+        },
+        "interiorColor": {
+            "total_memory": 277501.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.93
+        },
+        "vf_EngineManufacturer": {
+            "total_memory": 267242.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.9
+        },
+        "vf_FuelInjectionType": {
+            "total_memory": 265367.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.89
+        },
+        "vf_BedType": {
+            "total_memory": 255947.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.86
+        },
+        "vf_AirBagLocKnee": {
+            "total_memory": 254560.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.85
+        },
+        "vf_Trim": {
+            "total_memory": 253965.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.85
+        },
+        "vf_BrakeSystemType": {
+            "total_memory": 253864.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.85
+        },
+        "vf_TransmissionStyle": {
+            "total_memory": 253862.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.85
+        },
+        "vf_ABS": {
+            "total_memory": 253078.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.85
+        },
+        "vf_ESC": {
+            "total_memory": 248467.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.83
+        },
+        "vf_RearVisibilitySystem": {
+            "total_memory": 247602.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.83
+        },
+        "vf_TractionControl": {
+            "total_memory": 245477.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.82
+        },
+        "vf_DynamicBrakeSupport": {
+            "total_memory": 243661.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.82
+        },
+        "vf_SemiautomaticHeadlampBeamSwitching": {
+            "total_memory": 242108.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.81
+        },
+        "vf_DaytimeRunningLight": {
+            "total_memory": 241655.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.81
+        },
+        "vf_AutoReverseSystem": {
+            "total_memory": 241489.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.81
+        },
+        "vf_Note": {
+            "total_memory": 230622.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.77
+        },
+        "vf_KeylessIgnition": {
+            "total_memory": 227847.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.77
+        },
+        "vf_BlindSpotMon": {
+            "total_memory": 223014.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.75
+        },
+        "vf_ForwardCollisionWarning": {
+            "total_memory": 218953.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.74
+        },
+        "vf_LaneDepartureWarning": {
+            "total_memory": 216226.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.73
+        },
+        "vf_CIB": {
+            "total_memory": 215779.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.72
+        },
+        "vf_CAN_AACN": {
+            "total_memory": 215298.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.72
+        },
+        "vf_LaneKeepSystem": {
+            "total_memory": 212331.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.71
+        },
+        "vf_Turbo": {
+            "total_memory": 210410.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.71
+        },
+        "vf_AdaptiveCruiseControl": {
+            "total_memory": 209004.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.7
+        },
+        "vf_AdaptiveDrivingBeam": {
+            "total_memory": 204899.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.69
+        },
+        "vf_FuelTypeSecondary": {
+            "total_memory": 197951.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.66
+        },
+        "vf_PedestrianAutomaticEmergencyBraking": {
+            "total_memory": 195992.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.66
+        },
+        "vf_AirBagLocSeatCushion": {
+            "total_memory": 192993.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.65
+        },
+        "vf_CoolingType": {
+            "total_memory": 192646.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.65
+        },
+        "vf_ParkAssist": {
+            "total_memory": 191091.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.64
+        },
+        "vf_Pretensioner": {
+            "total_memory": 189417.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.64
+        },
+        "vf_Series2": {
+            "total_memory": 186585.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.63
+        },
+        "vf_EntertainmentSystem": {
+            "total_memory": 185483.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.62
+        },
+        "vf_DestinationMarket": {
+            "total_memory": 184573.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.62
+        },
+        "vf_BrakeSystemDesc": {
+            "total_memory": 184048.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.62
+        },
+        "vf_WheelBaseType": {
+            "total_memory": 183511.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.62
+        },
+        "vf_ElectrificationLevel": {
+            "total_memory": 182657.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.61
+        },
+        "vf_Trim2": {
+            "total_memory": 181895.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.61
+        },
+        "vf_AdditionalErrorText": {
+            "total_memory": 180918.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.61
+        },
+        "vf_AutomaticPedestrianAlertingSound": {
+            "total_memory": 180667.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.61
+        },
+        "vf_EDR": {
+            "total_memory": 180016.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_SuggestedVIN": {
+            "total_memory": 179179.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_BatteryType": {
+            "total_memory": 178748.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_NCSANote": {
+            "total_memory": 178630.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_BatteryInfo": {
+            "total_memory": 178627.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_RearCrossTrafficAlert": {
+            "total_memory": 178394.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_LowerBeamHeadlampLightSource": {
+            "total_memory": 178347.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_PossibleValues": {
+            "total_memory": 178254.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_AdaptiveHeadlights": {
+            "total_memory": 178073.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_DriverAssist": {
+            "total_memory": 178073.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_OtherMotorcycleInfo": {
+            "total_memory": 178053.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_EVDriveUnit": {
+            "total_memory": 177998.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_AxleConfiguration": {
+            "total_memory": 177993.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_ChargerLevel": {
+            "total_memory": 177985.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.6
+        },
+        "vf_MakeID": {
+            "total_memory": 138867.0,
+            "dtype": "object",
+            "memory_space_percentage": 0.47
+        },
+        "vf_OtherTrailerInfo": {
+            "total_memory": 72501.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.24
+        },
+        "msrp": {
+            "total_memory": 44492.0,
+            "dtype": "int64",
+            "memory_space_percentage": 0.15
+        },
+        "askPrice": {
+            "total_memory": 44492.0,
+            "dtype": "int64",
+            "memory_space_percentage": 0.15
+        },
+        "mileage": {
+            "total_memory": 44492.0,
+            "dtype": "int64",
+            "memory_space_percentage": 0.15
+        },
+        "dealerID": {
+            "total_memory": 44492.0,
+            "dtype": "int64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_Axles": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BasePrice": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryA": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryA_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryCells": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryKWh": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryKWh_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryModules": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryPacks": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryV": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BatteryV_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BedLengthIN": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_BusLength": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_CashForClunkers": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_ChargerPowerKW": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_CurbWeightLB": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_DisplacementCC": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_DisplacementCI": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_DisplacementL": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_Doors": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_EngineCycles": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_EngineCylinders": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_EngineHP": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_EngineHP_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_EngineKW": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_GCWR": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_GCWR_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_GVWR_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_ManufacturerId": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_ModelID": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_ModelYear": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_NCSABodyType": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_NCSAMake": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_NCSAMapExcApprovedBy": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_NCSAMapExcApprovedOn": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_NCSAMappingException": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_NCSAModel": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_OtherBusInfo": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_SAEAutomationLevel": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_SAEAutomationLevel_to": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_SeatRows": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_Seats": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_TopSpeedMPH": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_TrackWidth": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_TrailerLength": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_TransmissionSpeeds": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_WheelBaseLong": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_WheelBaseShort": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_WheelSizeFront": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_WheelSizeRear": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_Wheels": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "vf_Windows": {
+            "total_memory": 44492.0,
+            "dtype": "float64",
+            "memory_space_percentage": 0.15
+        },
+        "isNew": {
+            "total_memory": 5561.0,
+            "dtype": "bool",
+            "memory_space_percentage": 0.02
+        }
+    }
+}

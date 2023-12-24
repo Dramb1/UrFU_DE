@@ -1,0 +1,12 @@
+{
+    "YEAR": "uint16",
+    "MONTH": "uint8",
+    "DAY": "uint8",
+    "DAY_OF_WEEK": "uint8",
+    "AIRLINE": "category",
+    "TAIL_NUMBER": "category",
+    "FLIGHT_NUMBER": "uint16",
+    "SCHEDULED_DEPARTURE": "uint16",
+    "DEPARTURE_TIME": "uint16",
+    "DEPARTURE_DELAY": "int16"
+}

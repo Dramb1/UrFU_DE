@@ -1,0 +1,811 @@
+{
+    "file_size": 132900,
+    "file_in_memory_size": 104304.0,
+    "columns_stats": {
+        "h_line_score": {
+            "total_memory": 4161.0,
+            "memory_space_percentage": 3.99,
+            "dtype": "category"
+        },
+        "v_line_score": {
+            "total_memory": 4050.0,
+            "memory_space_percentage": 3.88,
+            "dtype": "category"
+        },
+        "winning_rbi_batter_id_name": {
+            "total_memory": 847.0,
+            "memory_space_percentage": 0.81,
+            "dtype": "category"
+        },
+        "losing_pitcher_name": {
+            "total_memory": 842.0,
+            "memory_space_percentage": 0.81,
+            "dtype": "category"
+        },
+        "v_player_9_name": {
+            "total_memory": 841.0,
+            "memory_space_percentage": 0.81,
+            "dtype": "category"
+        },
+        "winning_rbi_batter_id": {
+            "total_memory": 829.0,
+            "memory_space_percentage": 0.79,
+            "dtype": "category"
+        },
+        "losing_pitcher_id": {
+            "total_memory": 823.0,
+            "memory_space_percentage": 0.79,
+            "dtype": "category"
+        },
+        "v_player_9_id": {
+            "total_memory": 822.0,
+            "memory_space_percentage": 0.79,
+            "dtype": "category"
+        },
+        "v_player_7_name": {
+            "total_memory": 817.0,
+            "memory_space_percentage": 0.78,
+            "dtype": "category"
+        },
+        "h_player_7_name": {
+            "total_memory": 814.0,
+            "memory_space_percentage": 0.78,
+            "dtype": "category"
+        },
+        "h_player_9_name": {
+            "total_memory": 811.0,
+            "memory_space_percentage": 0.78,
+            "dtype": "category"
+        },
+        "winning_pitcher_name": {
+            "total_memory": 807.0,
+            "memory_space_percentage": 0.77,
+            "dtype": "category"
+        },
+        "v_starting_pitcher_name": {
+            "total_memory": 805.0,
+            "memory_space_percentage": 0.77,
+            "dtype": "category"
+        },
+        "h_starting_pitcher_name": {
+            "total_memory": 805.0,
+            "memory_space_percentage": 0.77,
+            "dtype": "category"
+        },
+        "v_player_7_id": {
+            "total_memory": 801.0,
+            "memory_space_percentage": 0.77,
+            "dtype": "category"
+        },
+        "h_player_7_id": {
+            "total_memory": 798.0,
+            "memory_space_percentage": 0.77,
+            "dtype": "category"
+        },
+        "v_starting_pitcher_id": {
+            "total_memory": 794.0,
+            "memory_space_percentage": 0.76,
+            "dtype": "category"
+        },
+        "h_player_9_id": {
+            "total_memory": 794.0,
+            "memory_space_percentage": 0.76,
+            "dtype": "category"
+        },
+        "h_starting_pitcher_id": {
+            "total_memory": 792.0,
+            "memory_space_percentage": 0.76,
+            "dtype": "category"
+        },
+        "winning_pitcher_id": {
+            "total_memory": 789.0,
+            "memory_space_percentage": 0.76,
+            "dtype": "category"
+        },
+        "v_player_8_name": {
+            "total_memory": 786.0,
+            "memory_space_percentage": 0.75,
+            "dtype": "category"
+        },
+        "v_player_6_name": {
+            "total_memory": 783.0,
+            "memory_space_percentage": 0.75,
+            "dtype": "category"
+        },
+        "h_player_6_name": {
+            "total_memory": 782.0,
+            "memory_space_percentage": 0.75,
+            "dtype": "category"
+        },
+        "h_player_8_name": {
+            "total_memory": 782.0,
+            "memory_space_percentage": 0.75,
+            "dtype": "category"
+        },
+        "v_player_8_id": {
+            "total_memory": 770.0,
+            "memory_space_percentage": 0.74,
+            "dtype": "category"
+        },
+        "v_player_6_id": {
+            "total_memory": 769.0,
+            "memory_space_percentage": 0.74,
+            "dtype": "category"
+        },
+        "h_player_6_id": {
+            "total_memory": 767.0,
+            "memory_space_percentage": 0.74,
+            "dtype": "category"
+        },
+        "h_player_8_id": {
+            "total_memory": 766.0,
+            "memory_space_percentage": 0.74,
+            "dtype": "category"
+        },
+        "v_player_5_name": {
+            "total_memory": 715.0,
+            "memory_space_percentage": 0.69,
+            "dtype": "category"
+        },
+        "v_player_2_name": {
+            "total_memory": 712.0,
+            "memory_space_percentage": 0.68,
+            "dtype": "category"
+        },
+        "h_player_5_name": {
+            "total_memory": 711.0,
+            "memory_space_percentage": 0.68,
+            "dtype": "category"
+        },
+        "h_player_2_name": {
+            "total_memory": 708.0,
+            "memory_space_percentage": 0.68,
+            "dtype": "category"
+        },
+        "v_player_5_id": {
+            "total_memory": 703.0,
+            "memory_space_percentage": 0.67,
+            "dtype": "category"
+        },
+        "v_player_2_id": {
+            "total_memory": 700.0,
+            "memory_space_percentage": 0.67,
+            "dtype": "category"
+        },
+        "h_player_5_id": {
+            "total_memory": 699.0,
+            "memory_space_percentage": 0.67,
+            "dtype": "category"
+        },
+        "h_player_2_id": {
+            "total_memory": 696.0,
+            "memory_space_percentage": 0.67,
+            "dtype": "category"
+        },
+        "date": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "uint32"
+        },
+        "length_outs": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "attendance": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "length_minutes": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_at_bats": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_hits": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_doubles": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_triples": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_homeruns": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_rbi": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_sacrifice_hits": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_sacrifice_flies": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_hit_by_pitch": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_walks": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_intentional walks": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_strikeouts": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_stolen_bases": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_caught_stealing": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_grounded_into_double": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_first_catcher_interference": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_left_on_base": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_pitchers_used": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_individual_earned_runs": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_team_earned_runs": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_wild_pitches": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_balks": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_putouts": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_assists": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_errors": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_passed_balls": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_double_plays": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_triple_plays": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_at_bats": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_hits": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_doubles": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_triples": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_homeruns": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_rbi": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_sacrifice_hits": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_sacrifice_flies": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_hit_by_pitch": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_walks": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_intentional walks": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_strikeouts": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_stolen_bases": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_caught_stealing": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_grounded_into_double": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_first_catcher_interference": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_left_on_base": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_pitchers_used": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_individual_earned_runs": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_team_earned_runs": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_wild_pitches": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_balks": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_putouts": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_assists": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_errors": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_passed_balls": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_double_plays": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_triple_plays": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_1_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_2_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_3_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_4_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_5_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_6_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_7_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_8_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "v_player_9_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_1_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_2_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_3_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_4_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_5_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_6_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_7_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_8_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "h_player_9_def_pos": {
+            "total_memory": 671.0,
+            "memory_space_percentage": 0.64,
+            "dtype": "float32"
+        },
+        "saving_pitcher_name": {
+            "total_memory": 610.0,
+            "memory_space_percentage": 0.58,
+            "dtype": "category"
+        },
+        "saving_pitcher_id": {
+            "total_memory": 599.0,
+            "memory_space_percentage": 0.57,
+            "dtype": "category"
+        },
+        "v_player_3_name": {
+            "total_memory": 599.0,
+            "memory_space_percentage": 0.58,
+            "dtype": "category"
+        },
+        "v_player_1_name": {
+            "total_memory": 592.0,
+            "memory_space_percentage": 0.57,
+            "dtype": "category"
+        },
+        "h_player_3_name": {
+            "total_memory": 592.0,
+            "memory_space_percentage": 0.57,
+            "dtype": "category"
+        },
+        "v_player_3_id": {
+            "total_memory": 590.0,
+            "memory_space_percentage": 0.57,
+            "dtype": "category"
+        },
+        "h_player_1_name": {
+            "total_memory": 587.0,
+            "memory_space_percentage": 0.56,
+            "dtype": "category"
+        },
+        "h_player_3_id": {
+            "total_memory": 583.0,
+            "memory_space_percentage": 0.56,
+            "dtype": "category"
+        },
+        "v_player_1_id": {
+            "total_memory": 582.0,
+            "memory_space_percentage": 0.56,
+            "dtype": "category"
+        },
+        "h_player_1_id": {
+            "total_memory": 578.0,
+            "memory_space_percentage": 0.55,
+            "dtype": "category"
+        },
+        "v_player_4_name": {
+            "total_memory": 572.0,
+            "memory_space_percentage": 0.55,
+            "dtype": "category"
+        },
+        "h_player_4_name": {
+            "total_memory": 569.0,
+            "memory_space_percentage": 0.55,
+            "dtype": "category"
+        },
+        "v_player_4_id": {
+            "total_memory": 564.0,
+            "memory_space_percentage": 0.54,
+            "dtype": "category"
+        },
+        "h_player_4_id": {
+            "total_memory": 561.0,
+            "memory_space_percentage": 0.54,
+            "dtype": "category"
+        },
+        "hp_umpire_name": {
+            "total_memory": 445.0,
+            "memory_space_percentage": 0.43,
+            "dtype": "category"
+        },
+        "hp_umpire_id": {
+            "total_memory": 440.0,
+            "memory_space_percentage": 0.42,
+            "dtype": "category"
+        },
+        "1b_umpire_name": {
+            "total_memory": 397.0,
+            "memory_space_percentage": 0.38,
+            "dtype": "category"
+        },
+        "h_manager_name": {
+            "total_memory": 396.0,
+            "memory_space_percentage": 0.38,
+            "dtype": "category"
+        },
+        "v_manager_name": {
+            "total_memory": 395.0,
+            "memory_space_percentage": 0.38,
+            "dtype": "category"
+        },
+        "1b_umpire_id": {
+            "total_memory": 394.0,
+            "memory_space_percentage": 0.38,
+            "dtype": "category"
+        },
+        "v_manager_id": {
+            "total_memory": 393.0,
+            "memory_space_percentage": 0.38,
+            "dtype": "category"
+        },
+        "h_manager_id": {
+            "total_memory": 393.0,
+            "memory_space_percentage": 0.38,
+            "dtype": "category"
+        },
+        "additional_info": {
+            "total_memory": 379.0,
+            "memory_space_percentage": 0.36,
+            "dtype": "category"
+        },
+        "3b_umpire_name": {
+            "total_memory": 368.0,
+            "memory_space_percentage": 0.35,
+            "dtype": "category"
+        },
+        "3b_umpire_id": {
+            "total_memory": 366.0,
+            "memory_space_percentage": 0.35,
+            "dtype": "category"
+        },
+        "2b_umpire_name": {
+            "total_memory": 365.0,
+            "memory_space_percentage": 0.35,
+            "dtype": "category"
+        },
+        "2b_umpire_id": {
+            "total_memory": 364.0,
+            "memory_space_percentage": 0.35,
+            "dtype": "category"
+        },
+        "park_id": {
+            "total_memory": 358.0,
+            "memory_space_percentage": 0.34,
+            "dtype": "category"
+        },
+        "v_name": {
+            "total_memory": 348.0,
+            "memory_space_percentage": 0.33,
+            "dtype": "category"
+        },
+        "h_name": {
+            "total_memory": 348.0,
+            "memory_space_percentage": 0.33,
+            "dtype": "category"
+        },
+        "completion": {
+            "total_memory": 180.0,
+            "memory_space_percentage": 0.17,
+            "dtype": "category"
+        },
+        "lf_umpire_name": {
+            "total_memory": 171.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "lf_umpire_id": {
+            "total_memory": 170.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "day_of_week": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "v_league": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "h_league": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "day_night": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "forefeit": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "protest": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "rf_umpire_id": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "rf_umpire_name": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "acquisition_info": {
+            "total_memory": 168.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "category"
+        },
+        "number_of_game": {
+            "total_memory": 167.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "uint8"
+        },
+        "v_game_number": {
+            "total_memory": 167.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "uint8"
+        },
+        "h_game_number": {
+            "total_memory": 167.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "uint8"
+        },
+        "v_score": {
+            "total_memory": 167.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "uint8"
+        },
+        "h_score": {
+            "total_memory": 167.0,
+            "memory_space_percentage": 0.16,
+            "dtype": "uint8"
+        }
+    }
+}

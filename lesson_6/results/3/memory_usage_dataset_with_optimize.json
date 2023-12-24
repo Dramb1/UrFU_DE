@@ -1,0 +1,56 @@
+{
+    "file_size": 578522,
+    "file_in_memory_size": 90008.0,
+    "columns_stats": {
+        "TAIL_NUMBER": {
+            "total_memory": 11627.0,
+            "memory_space_percentage": 12.92,
+            "dtype": "category"
+        },
+        "YEAR": {
+            "total_memory": 11197.0,
+            "memory_space_percentage": 12.44,
+            "dtype": "uint16"
+        },
+        "FLIGHT_NUMBER": {
+            "total_memory": 11197.0,
+            "memory_space_percentage": 12.44,
+            "dtype": "uint16"
+        },
+        "SCHEDULED_DEPARTURE": {
+            "total_memory": 11197.0,
+            "memory_space_percentage": 12.44,
+            "dtype": "uint16"
+        },
+        "DEPARTURE_TIME": {
+            "total_memory": 11197.0,
+            "memory_space_percentage": 12.44,
+            "dtype": "uint16"
+        },
+        "DEPARTURE_DELAY": {
+            "total_memory": 11197.0,
+            "memory_space_percentage": 12.44,
+            "dtype": "int16"
+        },
+        "AIRLINE": {
+            "total_memory": 5599.0,
+            "memory_space_percentage": 6.22,
+            "dtype": "category"
+        },
+        "MONTH": {
+            "total_memory": 5598.0,
+            "memory_space_percentage": 6.22,
+            "dtype": "uint8"
+        },
+        "DAY": {
+            "total_memory": 5598.0,
+            "memory_space_percentage": 6.22,
+            "dtype": "uint8"
+        },
+        "DAY_OF_WEEK": {
+            "total_memory": 5598.0,
+            "memory_space_percentage": 6.22,
+            "dtype": "uint8"
+        }
+    }
+}

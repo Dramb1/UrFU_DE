@@ -1,0 +1,1 @@
+{"id": "uint32", "prof_classes_found": "category", "key_skills": "object", "address_city": "category", "schedule_id": "category", "address_lng": "float32", "address_lat": "float32", "salary_from": "uint32", "salary_to": "uint32", "employment_name": "category"}

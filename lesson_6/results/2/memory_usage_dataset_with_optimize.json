@@ -1,0 +1,56 @@
+{
+    "file_size": 845280,
+    "file_in_memory_size": 2510.0,
+    "columns_stats": {
+        "stockNum": {
+            "total_memory": 1783.0,
+            "memory_space_percentage": 71.06,
+            "dtype": "category"
+        },
+        "askPrice": {
+            "total_memory": 208.0,
+            "memory_space_percentage": 8.3,
+            "dtype": "uint32"
+        },
+        "color": {
+            "total_memory": 151.0,
+            "memory_space_percentage": 6.04,
+            "dtype": "category"
+        },
+        "modelName": {
+            "total_memory": 53.0,
+            "memory_space_percentage": 2.13,
+            "dtype": "category"
+        },
+        "isNew": {
+            "total_memory": 52.0,
+            "memory_space_percentage": 2.08,
+            "dtype": "bool"
+        },
+        "brandName": {
+            "total_memory": 52.0,
+            "memory_space_percentage": 2.09,
+            "dtype": "category"
+        },
+        "vf_WheelSizeFront": {
+            "total_memory": 52.0,
+            "memory_space_percentage": 2.08,
+            "dtype": "uint8"
+        },
+        "vf_WheelSizeRear": {
+            "total_memory": 52.0,
+            "memory_space_percentage": 2.08,
+            "dtype": "uint8"
+        },
+        "vf_Wheels": {
+            "total_memory": 52.0,
+            "memory_space_percentage": 2.08,
+            "dtype": "uint8"
+        },
+        "vf_Windows": {
+            "total_memory": 52.0,
+            "memory_space_percentage": 2.08,
+            "dtype": "uint8"
+        }
+    }
+}
