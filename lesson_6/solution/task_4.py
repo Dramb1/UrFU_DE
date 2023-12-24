@@ -22,8 +22,8 @@ if __name__ == "__main__":
     path_save_filtered_df = os.path.join(lESSON_DIR, "results/4/filter_df.csv")
 
     file_size = os.path.getsize(path_to_file)
-    # memory_usage = utils.analyse_df_by_chunk(path_to_file, path_to_file_save, chunksize=500_000)
-    # print(f"Memory size dataset without optimize: {memory_usage['file_in_memory_size']} MB")
+    memory_usage = utils.analyse_df_by_chunk(path_to_file, path_to_file_save, chunksize=500_000)
+    print(f"Memory size dataset without optimize: {memory_usage['file_in_memory_size']} MB")
 
     dtypes_df_optimize = {
         'id': pd.StringDtype(),
@@ -40,16 +40,16 @@ if __name__ == "__main__":
 
     has_header = True
     total_size = 0
-    # df_chank = pd.read_csv(
-    #     path_to_file, 
-    #     usecols=lambda x: x in dtypes_df_optimize.keys(), 
-    #     dtype=dtypes_df_optimize,
-    #     chunksize=500_000
-    # )
-    # for part in tqdm(df_chank):
-    #     total_size += part.memory_usage(deep=True).sum()
-    #     part.dropna().to_csv(path_save_filtered_df, mode="a", header=has_header, index=False)
-    #     has_header = False
+    df_chank = pd.read_csv(
+        path_to_file, 
+        usecols=lambda x: x in dtypes_df_optimize.keys(), 
+        dtype=dtypes_df_optimize,
+        chunksize=500_000
+    )
+    for part in tqdm(df_chank):
+        total_size += part.memory_usage(deep=True).sum()
+        part.dropna().to_csv(path_save_filtered_df, mode="a", header=has_header, index=False)
+        has_header = False
 
     df = pd.read_csv(path_save_filtered_df)
     df_optimize = utils.optimize_df(df)
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     path_save_plot_correlation = os.path.join(lESSON_DIR, "results/4/plot_correlation.jpg")
     
     plot.plot_histogram(df_optimize.loc[df_optimize['prof_classes_found'].isin(["specialist", "verts", "rukovoditel", "marketolog", "tester"])], "prof_classes_found", path_save_plot_histogram)
-    plot.plot_pie(df_optimize, "employment_name", path_save_plot_pie)
+    plot.plot_pie(df_optimize[df_optimize['employment_name'] != 'Полная занятость'], "employment_name", path_save_plot_pie)
     plot.plot_linear_graphics(df_optimize, "salary_from", "salary_to", path_save_plot_linear_graphics)
     plot.plot_boxplot(df_optimize, "schedule_id", "salary_to", path_save_plot_boxplot)
     plot.plot_correlation(df_optimize, ["salary_from", "salary_to", "address_lat", "address_lng"], path_save_plot_correlation)

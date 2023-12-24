@@ -69,7 +69,7 @@ if __name__ == "__main__":
     path_save_plot_correlation = os.path.join(lESSON_DIR, "results/5/plot_correlation.jpg")
     
     plot.plot_histogram(df_optimize, "class", path_save_plot_histogram)
-    plot.plot_pie(df_optimize, "class", path_save_plot_pie)
+    plot.plot_pie(df_optimize[df_optimize['class'] != 'MBA'], "class", path_save_plot_pie, True)
     plot.plot_linear_graphics(df_optimize, "albedo", "rms", path_save_plot_linear_graphics)
     plot.plot_boxplot(df_optimize, "diameter", "class", path_save_plot_boxplot)
     plot.plot_correlation(df_optimize, ["diameter", "om", "albedo", "rms"], path_save_plot_correlation)
